@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lily's Recruitement page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        #chart {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="spinner">
+        <div class="lds-dual-ring"></div> 
+    </div>
+
+    <canvas id="chart" width="1000" height="600"></canvas>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
